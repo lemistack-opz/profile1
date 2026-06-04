@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, hsl(270, 11%, 93%), hsl(240, 7%, 86%));
+    color: #f0f0f0;
+    text-align: center;
+    padding: 60px 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+h1 {
+    color: #6a11cb;
+}
+.quote {
+    font-size: 1.8rem;
+    font-style: italic;
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 30px;
+    border-left: 6px solid #6a11cb;
+    background: #6a11cb;
+    border-radius: 10px;
+}
+.back-btn {
+    margin-top: 40px;
+    padding: 14px 40px;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
